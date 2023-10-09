@@ -89,3 +89,19 @@ ul {
     display: flex;
     justify-content: flex-end;
 }
+
+
+/*ACTION BLOCK*/
+
+.action-block {
+    
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+
+.action-blue {
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
