@@ -2,6 +2,8 @@
     border: 1px solid red;
 }
 
+/*HEADING BLOCK*/
+
 .header-block {     /*entire top block*/
     display: flex;
     flex-direction: column;
@@ -49,3 +51,22 @@ ul {
 
 /*GET MARGINS OF HEAD AND CPNTENT EQUAL*/
 /*SPLIT INTO COMMON SELECTORS TO AVOID REPEAT*/
+
+/*RANDOM BLOCK*/
+
+.random-block {
+    text-align: center;
+}
+
+#all-info {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info-box {
+    width: 70px;
+    height: 70px;
+}
