@@ -1,0 +1,25 @@
+.header-block {     /*entire top block*/
+    display: flex;
+    flex-direction: column;
+}
+
+.header {          /*header logo and links*/
+    display: flex;
+    gap: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    list-style-type: none;
+
+}
+
+.awesome-content {
+    display:flex;
+    flex-direction: row;
+    color:blue;
+}
