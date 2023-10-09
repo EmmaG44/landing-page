@@ -1,13 +1,22 @@
+* {
+    border: 1px solid red;
+}
+
 .header-block {     /*entire top block*/
     display: flex;
     flex-direction: column;
 }
 
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
 .header {          /*header logo and links*/
     display: flex;
-    gap: 50px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
 }
 
 ul {
@@ -20,6 +29,23 @@ ul {
 
 .awesome-content {
     display:flex;
-    flex-direction: row;
-    color:blue;
+    justify-content: center;
+    gap:8px;
+    margin: 40px;
+    
 }
+
+.awesome-text {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-up-button {
+    width: fit-content;
+}
+
+/*GET MARGINS OF HEAD AND CPNTENT EQUAL*/
+/*SPLIT INTO COMMON SELECTORS TO AVOID REPEAT*/
