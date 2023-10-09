@@ -1,5 +1,7 @@
 * {
-    border: 1px solid red;
+   -border: 1px solid red;
+   margin: 0;
+   padding: 0;
 }
 
 /*HEADING BLOCK*/
@@ -7,11 +9,15 @@
 .header-block {     /*entire top block*/
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
+    color: white;
 }
 
 .header-logo {
     display: flex;
     align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header {          /*header logo and links*/
@@ -47,15 +53,42 @@ ul {
 
 .sign-up-button {
     width: fit-content;
+    background-color: #3882f6;
+    color: white;
+}
+
+.awesome-header {
+    font-weight: bold;
+    color: #f9fAF8;
+    font-size: 48px;
+    
+}
+
+.awesome-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 /*GET MARGINS OF HEAD AND CPNTENT EQUAL*/
+/*MAKE BOX AUTO ADJUST TO TEXT SIZE*/
 /*SPLIT INTO COMMON SELECTORS TO AVOID REPEAT*/
+/*ROBOTO FONT*/
 
 /*RANDOM BLOCK*/
 
 .random-block {
     text-align: center;
+}
+
+.random-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
 }
 
 #all-info {
@@ -69,6 +102,7 @@ ul {
 .info-box {
     width: 70px;
     height: 70px;
+    border: solid #3882f6
 }
 
 
@@ -78,11 +112,15 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #e5e7eb;
 }
 
 .thor-content {
     margin: 50px;
-    width: 500px
+    width: 500px;
+    font-size: 36px;
+    font-weight: light italic;
+    color: #1f2937
 }
 
 .thor-name {
@@ -104,6 +142,7 @@ ul {
     justify-content: center;
     align-items: center;
     margin: 50px;
+    background-color: #3882f6;
 }
 
 
@@ -111,4 +150,6 @@ ul {
 
 .footer-block {
     text-align: center;
+    background-color: #1F2937;
+    color: white
 }
